@@ -5,6 +5,10 @@
     font-family: 'Lucida Sans', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --cinza-principal: #1D232A;
     --cinza-escuro: #14191F;
@@ -38,9 +42,12 @@ nav {
 }
 
 .logo img {
-    height: 60px;
-    width: auto;
+  height: auto;
+  max-height: 80px;
+  width: auto;
+  max-width: 150px;
 }
+
 
 .texto p {
     display: flex;
@@ -352,10 +359,14 @@ transition: .3s;
 
 
 
+
+
 @media (max-width: 768px) {
     .container1, .container2, .container3, .container4 {
         width: 100%;
         margin-left: 0;
+        padding: 1rem;
+        text-align: center;
     }
 
     .footer-container {
@@ -367,4 +378,253 @@ transition: .3s;
         max-width: 100%;
         text-align: center;
     }
+    .img-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.equipe {
+  flex: 1 1 150px;
+  max-width: 200px;
+  text-align: center;
+}
+.noticias {
+  max-width: 100%;
+  padding: 0 1rem;
+}
+
+.container4 i{
+    padding-left: 0;
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+footer {
+    padding: 20px 10px;
+}
+}
+
+@media (max-width: 1000px) and (min-width: 800px) {
+  
+    .container4 i{
+        padding-left: 380px;
+        margin-top: 20px;
+        font-size: 50px;
+    }
+
+    .equipes h1 {
+        display: block;
+        font-size: 30px;
+        margin-bottom: 40px;
+        width: 100%;
+        order: -1;
+        text-align: center;
+        color: white;
+    }
+
+    .equipes{
+        display:flex;
+    }
+    
+}
+
+@media (max-width: 1200px) and (min-width: 1000px) {
+  
+    .container4 i{
+        padding-left: 450px;
+        margin-top: 20px;
+        font-size: 50px;
+    }
+
+    .equipes h1 {
+        display: block;
+        font-size: 30px;
+        margin-bottom: 40px;
+        width: 100%;
+        order: -1;
+        text-align: center;
+        color: white;
+    }
+
+    .equipes{
+        display:flex;
+    }
+    
+}
+
+
+@media (max-width: 1600px) and (min-width: 1200px) {
+   
+
+    .container4 i{
+        padding-left: 480px;
+        margin-top: 20px;
+        font-size: 50px;
+    }
+
+    .equipes h1 {
+        display: block;
+        font-size: 30px;
+        margin-bottom: 40px;
+        width: 100%;
+        order: -1;
+        text-align: center;
+        color: white;
+    }
+
+    .equipes{
+        display:flex;
+    }
+
+    
+}
+
+@media (max-width: 1800px) and (min-width: 1600px) {
+   
+
+    .container3{
+        width: 100%;
+        margin-left: 300px;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .container4{
+        width: 100%;
+        margin-left: 300px;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .container2{
+        width: 29%;
+        text-align: center;
+    }
+    .container1{
+        width: 39%;
+        margin-left: 300px;
+        text-align: center;
+    }
+    .container4 i{
+        padding-left: 0px;
+        margin-top: 20px;
+        font-size: 50px;
+    }
+
+    .equipes h1 {
+        display: block;
+        font-size: 30px;
+        margin-bottom: 40px;
+        width: 100%;
+        order: -1;
+        text-align: center;
+        color: white;
+    }
+    
+}
+
+@media (max-width: 1900px) and (min-width: 1800px) {
+   
+
+    .container4 i{
+        padding-left: 20px;
+        margin-top: 20px;
+        font-size: 50px;
+    }
+
+    .container4{
+        width: 100%;
+        margin-left: 300px;
+        padding: 1rem;
+        text-align: center;
+    }
+
+     .container3{
+        width: 100%;
+        margin-left: 300px;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .container2{
+        width: 27%;
+        text-align: center;
+    }
+
+    .container1{
+        width: 35%;
+        margin-left: 300px;
+        text-align: center;
+    }
+
+    .equipes h1 {
+        display: block;
+        font-size: 30px;
+        margin-bottom: 40px;
+        width: 100%;
+        order: -1;
+        text-align: center;
+        color: white;
+    }
+
+    .equipes{
+        display:flex;
+    }
+    
+
+    
+}
+
+@media (max-width: 2000px) and (min-width: 1900px) {
+   
+
+    .container4 i{
+        padding-left: 30px;
+        margin-top: 20px;
+        font-size: 50px;
+    }
+
+    .container4{
+        width: 100%;
+        margin-left: 300px;
+        padding: 1rem;
+        text-align: center;
+    }
+
+     .container3{
+        width: 100%;
+        margin-left: 300px;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .container2{
+        width: 27%;
+        text-align: center;
+    }
+
+    .container1{
+        width: 35%;
+        margin-left: 300px;
+        text-align: center;
+    }
+
+    .equipes h1 {
+        display: block;
+        font-size: 30px;
+        margin-bottom: 40px;
+        width: 100%;
+        order: -1;
+        text-align: center;
+        color: white;
+    }
+
+    .equipes{
+        display:flex;
+    }
+    
+
+    
 }
