@@ -1,0 +1,370 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+:root {
+    --cinza-principal: #1D232A;
+    --cinza-escuro: #14191F;
+    --vermelho-base: #b60000;
+    --alpine: #c05e8f;
+    --ferrari: #d87939;
+    --mclaren: #811818;
+    --redbull: #0e36a4;
+    --williams: #e0af3c;
+}
+
+body {
+    background-color: var(--cinza-principal);
+    color: white;
+}
+
+header {
+    background-color: var(--cinza-principal);
+    border-bottom: 1px solid white;
+    padding: 10px 0;
+}
+
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 60px;
+    width: auto;
+}
+
+.texto p {
+    display: flex;
+    margin-top: 50px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.menu a {
+    display: inline-flex;
+  
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: var(--vermelho-base);
+    text-decoration: underline;
+}
+
+
+.container1 {
+    display: inline-table;
+    background-color: var(--cinza-escuro);
+    max-width: 1200px;
+    width: 45%;
+    height: 230px;
+    margin: 20px;
+    margin-left: 100px;
+}
+
+.container1 p {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+    padding-top: 90px;
+}
+
+.container2{
+    display: inline-table;
+    background-color: var(--cinza-escuro);
+    max-width: 1200px;
+    width: 32.5%;
+    height: 230px;
+
+}
+
+.container2 p {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+    padding-top: 90px;
+}
+
+.container3 {
+    display: inline-table;
+    background-color: var(--cinza-escuro);
+    max-width: 1200px;
+    width: 80%;
+    height: 300px;
+    margin: 20px;
+    margin-left: 100px;
+}
+
+.container3 p {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 40px;
+    padding-top: 90px;
+}
+
+.container4 {
+    display: inline-table;
+    background-color: var(--cinza-escuro);
+    max-width: 1200px;
+    width: 80%;
+    height: 300px;
+    margin: 20px;
+    margin-left: 100px;
+}
+
+.container4 i {
+    text-align: center;
+    font-size: 45px;
+    margin-top: 40px;
+    padding-top: 90px;
+    padding-left: 350px;
+}
+
+
+
+footer {
+  background-color: var(--cinza-escuro);
+  color: white;
+  padding: 40px 80px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 40%;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+footer h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer li {
+  margin: 5px 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+footer a:hover {
+  color: var(--vermelho-base);
+  text-decoration: underline;
+}
+
+.icons a {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.img-container img {
+  width: 180px;
+  height: 150px;
+  transition: .3s;
+}
+
+.img-container img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+
+.img-container p {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 10px;
+  transition: .3s;
+}
+
+.img-container a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+transition: .3s;
+}
+
+.img-container p:hover {
+  color: var(--vermelho-base);
+  text-decoration: underline;
+    transition: .3s;
+}
+
+.img-container a:hover {
+  color: var(--vermelho-base);
+  text-decoration: underline;
+    transition: .3s;
+}
+
+.img1 p{
+    background-color: var(--alpine) ;
+}
+
+.img2 p{
+    background-color: var(--ferrari) ;
+}
+
+.img3 p{
+    background-color: var(--mclaren) ;
+}
+
+.img4 p{
+    background-color: var(--redbull) ;
+}
+
+.img5 p{
+    background-color: var(--williams) ;
+}
+
+
+.equipes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.news {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 60px 0;
+  padding: 0 20px;
+}
+
+.news h1 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: white;
+}
+
+.noticias {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  max-width: 600px;
+}
+
+.noticias li {
+  display: flex;
+  align-items: center;
+  background-color: var(--cinza-escuro);
+  padding: 15px 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+.noticias li:hover {
+  background-color: #2a2f36;
+}
+
+.noticias i {
+  font-size: 24px;
+  margin-right: 15px;
+  color: var(--vermelho-base);
+}
+
+.noticias p {
+  margin: 0;
+  font-size: 16px;
+  color: white;
+}
+
+
+.noticia-detalhe {
+  display: none;
+  flex-direction: column;
+  margin-top: 15px;
+  background-color: #2a2f36;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.noticia-detalhe img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.noticia-detalhe a {
+    text-decoration: none;
+    color: var(--vermelho-base);
+    font-size: 16px;
+    margin-top: 10px;
+    transition: .3s;
+}
+
+.noticia-detalhe a:hover {
+    text-decoration: underline;
+    transition: .3s;
+}
+
+.noticia-item.active .noticia-detalhe {
+  display: flex;
+}
+
+
+
+@media (max-width: 768px) {
+    .container1, .container2, .container3, .container4 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-left, .footer-right {
+        max-width: 100%;
+        text-align: center;
+    }
+}
